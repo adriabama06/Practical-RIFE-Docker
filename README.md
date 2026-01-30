@@ -5,6 +5,8 @@
 # Build image (Nvidia):
 ```bash
 docker build -t rife -f Dockerfile .
+# Or pull (faster), on the commands below use ghcr.io/adriabama06/practical-rife-docker:master instance of rife
+docker pull ghcr.io/adriabama06/practical-rife-docker:master
 ```
 # Build image (CPU):
 ```bash
